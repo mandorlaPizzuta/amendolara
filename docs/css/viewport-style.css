@@ -1,0 +1,17 @@
+/*
+insert meta:
+<meta name='viewport' content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'/>
+<link rel='stylesheet' type='text/css' href='css/viewport-style.css'>
+*/
+
+/* Global Style */
+@import url('viewport/global.css');
+
+/* Desktop */
+@import url('viewport/desktop.css') only screen and (min-width:769px);
+
+/* Tablet */
+@import url('viewport/tablet.css') only screen and (min-width:401px) and (max-width:768px);
+
+/* Telefono */
+@import url('viewport/phone.css') only screen and (max-width:400px);

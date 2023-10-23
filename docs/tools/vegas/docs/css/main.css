@@ -1,0 +1,11 @@
+@import url("vegas.min.css");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#vegas-target {
+  width: 100vw;
+  height: 100vh;
+}

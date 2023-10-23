@@ -1,0 +1,91 @@
+/* ################################# */
+/* ############ cookies ############ */
+/* ################################# */
+.aviso-cookies {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #fff;
+  padding: 20px;
+  width: calc(100% - 40px);
+  max-width: 300px;
+  line-height: 150%;
+  border-radius: 10px;
+    /* padding-top: 60px; */
+  box-shadow: 0px 2px 20px 10px rgba(222, 222, 222, .25);
+  text-align: center;
+  z-index: 20001;
+}
+
+.aviso-cookies.activo {
+  display: block;
+}
+
+.aviso-cookies .galleta {
+  /* position: absolute; */
+  /* top: -50px; */
+  /* left: calc(50% - 50px); */
+  max-width: 100px;
+}
+
+.aviso-cookies .titulo,
+.aviso-cookies .parrafo {
+  margin-bottom: 15px;
+  width: 100%;
+  font-size: 14px;
+  /* border: 1px solid; */
+}
+
+.aviso-cookies .boton {
+  width: 100%;
+  background: #595959;
+  border: none;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  padding: 15px 20px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: .3s ease all;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.aviso-cookies .boton:hover {
+  background: #000;
+}
+.aviso-cookies .enlace {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  color:#4DBFFF;
+  text-decoration: none;
+  font-size: 14px;
+  border: 1px solid;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+
+.aviso-cookies .enlace:hover {
+  text-decoration: underline;
+}
+
+.fondo-aviso-cookies{
+  display: none;
+  background: rgba(0,0,0,.5);
+  position: fixed;
+  z-index: 99;
+  width: 100vw;
+  height: 100vh;
+  top:0;
+  left: 0;
+  z-index: 20000;
+}
+.fondo-aviso-cookies.activo{
+  display: block;
+}
+/* ################################## */
+/* ########## fine cookies ########## */
+/* ################################## */
