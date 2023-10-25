@@ -35,6 +35,16 @@ a {
 }
 
 
+
+.video {
+  display: block;
+  min-width: 200px;
+  min-height: 150px;
+  border: #fff 1px solid;
+
+}
+
+
 .logo {
   display: block;
   position: relative;
