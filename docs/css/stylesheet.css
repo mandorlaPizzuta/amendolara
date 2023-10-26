@@ -25,6 +25,19 @@ a {
 }
 
 
+
+.content_reels {
+  display: flex;
+
+}
+
+
+.reel_item {
+
+}
+
+
+
 .draft {
   display: block;
   margin: auto;
