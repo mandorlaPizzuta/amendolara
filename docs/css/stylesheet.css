@@ -28,11 +28,21 @@ a {
 
 .content_reels {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 
 }
 
-
 .reel_item {
+  text-align: center;
+  margin: auto;
+}
+
+.reel_item img{
+  display: block;
+max-width: 400px;
+margin: 10px;
 
 }
 
