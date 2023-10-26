@@ -30,13 +30,12 @@ a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
 
 }
 
 .reel_item {
   text-align: center;
-  margin: auto;
 }
 
 .reel_item img{
