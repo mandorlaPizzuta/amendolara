@@ -3,8 +3,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800");
 @import url("color/color.css");
 
-
-
 * {
   margin: 0;
   padding: 0;
@@ -24,8 +22,6 @@ a {
   text-decoration: none;
 }
 
-
-
 .content_reels {
   padding: 20px;
   display: flex;
@@ -36,6 +32,9 @@ a {
 }
 
 .reel_item {
+  display: block;
+  width: 400px;
+  height: 300px;
   text-align: center;
   margin-bottom: 50px;
   box-shadow: 0px 5px 10px #23252b;
@@ -46,13 +45,9 @@ a {
 
 .reel_item img{
   display: block;
-  width: 400px;
-  height: 300px;
 margin: 10px;
 object-fit: cover;
 }
-
-
 
 .draft {
   display: block;
@@ -62,8 +57,6 @@ object-fit: cover;
 
 }
 
-
-
 .video {
   display: block;
   min-width: 200px;
@@ -71,7 +64,6 @@ object-fit: cover;
   border: #fff 1px solid;
 
 }
-
 
 .logo {
   display: block;
