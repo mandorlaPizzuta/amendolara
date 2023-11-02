@@ -1,12 +1,7 @@
 .reel_item {
   display: block;
   width: 250px;
-  height: 150px;
-  /* overflow: hidden; */
-  /* background-color: aqua; */
+  height: 200px;
 }
 
 
-.reel_item img{
-width: 100%;
-}
