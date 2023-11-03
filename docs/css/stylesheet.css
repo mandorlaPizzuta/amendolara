@@ -16,10 +16,17 @@ body {
   width: 100%;
   height: 100%;
   overflow-x: hidden;
+  background: #ddd;
+
 }
 
 a {
   text-decoration: none;
+}
+
+main{
+  margin: auto;
+max-width: 1200px;
 }
 
 .content_reels {
@@ -28,7 +35,6 @@ a {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  background: #ddd;
 }
 
 .reel_item {
